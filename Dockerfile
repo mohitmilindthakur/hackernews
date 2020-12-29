@@ -7,6 +7,6 @@ COPY . ${APP_ROOT}
 RUN npm install
 RUN npm run build
 
-EXPOSE 3011
+EXPOSE 3000
 
 CMD ["npm", "run", "start"]
