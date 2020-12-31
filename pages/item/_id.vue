@@ -3,7 +3,7 @@
     <div class="item-view-header">
       <template v-if="isAbsolute(item.url)">
         <a :href="item.url" target="_blank" rel="noopener"><h1 v-text="item.title" /></a>
-        <span class="host"> ({{ item.url | host }})</span>
+        <span class="host"> ({{ item.url | host }}) testing</span>
       </template>
       <template v-else>
         <h1 v-text="item.title" />
